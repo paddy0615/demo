@@ -1,0 +1,10 @@
+server:
+  port: 8081
+  address: 0.0.0.0
+  ##address: 192.168.99.3
+##thymeleaf页面模板配置
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
